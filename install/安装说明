@@ -1,3 +1,7 @@
+
+
+ kill -INT `cat /run/php-fpm.pid`
+mkdir /run/php-fpm
 # sudo /usr/sbin/php-fpm -R
 
 # sudo systemctl stop  php-fpm 

@@ -1,1 +1,3 @@
 # sudo /usr/sbin/php-fpm -R
+
+# sudo systemctl stop  php-fpm 

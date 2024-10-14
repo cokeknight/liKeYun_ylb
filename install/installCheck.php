@@ -4,7 +4,7 @@
     header("Content-type: application/json");
     
     // 关闭错误
-    # ini_set("display_errors", "Off");
+    ini_set("display_errors", "On");
     
     // 测试文件
     $consoleTestFile = "../console/test.txt";

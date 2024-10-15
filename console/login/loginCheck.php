@@ -11,7 +11,7 @@
 
 	// 页面编码
 	header("Content-type:application/json");
-	
+	ini_set("display_errors", "On");
 	// 接收参数
 	$user_name = trim($_POST['user_name']);
 	$user_pass = trim($_POST['user_pass']);
